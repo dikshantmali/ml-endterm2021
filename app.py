@@ -67,7 +67,7 @@ def main():
    </div>
    """
     st.markdown(html_temp,unsafe_allow_html=True)
-    st.header("Random Forest Classification")
+    st.header("Artificial Neural Network Classification For Person Voice")
     meanfreq = st.number_input("Enter The meanfreq value",0,1)
     sd = st.number_input("Enter The sd value",0,1)
     median = st.number_input("Enter The median value",0,1)
